@@ -1,0 +1,91 @@
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #525252;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    font-family: "Quicksand", sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #7f7f7f;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+body {
+  padding-top: 40px;
+}
+
+h3, p {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+p {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 22px;
+}
+
+#snack {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+}
+
+#random {
+  text-align: center;
+}
+
+button {
+  padding: 20px 60px 20px 60px;
+  font-size: 30px;
+  border-radius: 7px;
+  background-color: white;
+  border-color: #94B0DA;
+  border-width: 4px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  color: white;
+  background-color: #94B0DA;
+}
+
+h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
