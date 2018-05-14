@@ -25,10 +25,22 @@
 var names = ["Dylan", "David", "Sparsh", "Ananya", "Anna", "Anusha", "Brandon", "Justin", "Natasha and Neil", "Rishab", "Shannon", "Ms. Wolek"];
 function start() {
   var n = names[Math.floor(Math.random() * 12)];
+localStorage.name=n;
   if(n == "Natasha and Neil") {
-  document.getElementById("snack").innerHTML = "Next Weeks snack bringers are: Natasha and Neil";
+  document.getElementById("snack").innerHTML = "Next Week's Snack Bringers are: Natasha and Neil";
 }else{
-  document.getElementById("snack").innerHTML = "Next weeks snack bringer is: " + n;
+  document.getElementById("snack").innerHTML = "Next Week's Snack Bringer is: " + n;
 }}
+
+if (typeof(Storage) !== "") {
+n=localStorage.name;
+    if(n == "Natasha and Neil") {
+  document.getElementById("snack").innerHTML = "Next Week's Snack Bringers are: Natasha and Neil";
+}else{
+  document.getElementById("snack").innerHTML = "Next Week's Snack Bringer is: " + n;
+}
+} else {
+    // Sorry! No Web Storage support..
+}
 </script>
 </html>
