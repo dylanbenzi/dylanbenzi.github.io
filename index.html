@@ -3,6 +3,7 @@
 <head>
   <title>Coding Club</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.png">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
@@ -32,7 +33,7 @@ localStorage.name=n;
   document.getElementById("snack").innerHTML = "Next Week's Snack Bringer is: " + n;
 }}
 
-if (typeof(Storage) !== "") {
+if (typeof(Storage) !== null) {
 n=localStorage.name;
     if(n == "Natasha and Neil") {
   document.getElementById("snack").innerHTML = "Next Week's Snack Bringers are: Natasha and Neil";
